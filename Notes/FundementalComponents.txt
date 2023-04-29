@@ -35,7 +35,7 @@ TouchableHighlight, This shows a highlight in a way
 TouchableNativeFeedback, only used in android, It works with view that have background colors and not images. 
 
 
-Buttons
+Buttons:
 They can be self closing tags and take in the title. 
 They have various props such as the color prop
 
