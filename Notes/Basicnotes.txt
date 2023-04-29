@@ -1,0 +1,28 @@
+By defualt React native uses function components, which are fast and lighter than class components
+
+View Component: is similar to a div 
+Text Component: is used to write text on the screen
+
+To style a react native component we can create an object for storing  our styles by the use of the StyleSheet.create() then we pass in objects
+
+
+React native uses metro bundler to compile all of the js into what is desired
+
+React native has fast refresh
+
+Debbugging:
+
+We can console to the terminal on vs code
+i.e console.log
+
+Make sure to always stop debugging as they can slow the app
+Go tp the developer thingy on chrome use ctrl+m then go to open js debugger
+Then this will take you top chrome go to sources then press pause buttonm and tick the option
+
+There is a watch window, where we can specify the variable we woulld like to watch
+
+We can debug in vs code, by going to the debug tab and letting vs code handle it
+
+
+expo can be published to expo and people can access it with expo client for development and testing purposes
+We can use the command:  expo publish
