@@ -1,0 +1,43 @@
+View:
+
+View component is similar to div. It is used for groupong and layout.
+    flex:1 means the component is flexible and it will grow horizontally and vertically to fill the screen
+
+SafeAreaView:
+
+    This creates a form of notch or pushes the content of the app to a safe area view insteead of them being hidden by phone or emulator notch
+
+Text:
+
+Text component is used to display text. Text should always be wrapped around a text component
+This has various props: 
+    -Number of lines, this prope sets the text to be truncated..what what..meaning once it exit its size it will show ...
+    -onPress, this can make text to behave like a link or listen for a press event
+
+
+
+Image:
+
+This can display images that is bundled in the app and also network images
+We use the attribute/ prop source then we can use the require() and pass in the path to the image this image will be bundled with the application so it should be static
+The require image returns a number which is reference to the image
+We can use the url and specify the network image, but we have to manually have to set the dimensions
+It has various props such as the width, height
+    loadingIndicatorSource, fadeduration(For androids)
+    We have resizemode as well
+
+
+Touchable:
+
+TouchableWithoutFeedback. This has onPress event and onLongPress wich has to do with holding but it does not have any feedback
+TouchableOpacity. This reduces opacity of image and shows background in a way
+TouchableHighlight, This shows a highlight in a way
+TouchableNativeFeedback, only used in android, It works with view that have background colors and not images. 
+
+
+Buttons
+They can be self closing tags and take in the title. 
+They have various props such as the color prop
+
+
+Alert:
